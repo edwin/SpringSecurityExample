@@ -13,5 +13,7 @@
     </head>
     <body>
         <h1>Selamat, anda sudah login -- admin page</h1>
+        <br />
+        <a href="${pageContext.request.contextPath}/logout">logout</a>
     </body>
 </html>

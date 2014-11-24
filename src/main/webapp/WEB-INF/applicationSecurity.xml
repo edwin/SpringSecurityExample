@@ -12,7 +12,8 @@
         <intercept-url pattern="/" 	access="isAnonymous()"/>
         <form-login login-page="/" 
                     authentication-failure-url="/?error=1" 
-                    default-target-url="/" always-use-default-target="true"/>
+                    default-target-url="/admin/index" always-use-default-target="true"/>
+        <logout logout-url="/logout" logout-success-url="/" />
     </http>
  
     <authentication-manager>
